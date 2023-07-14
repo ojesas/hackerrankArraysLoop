@@ -7,7 +7,7 @@ function solucao(precos) {
         for (let j = i + 1; j < precos.length; j++) {
             let difTemp = (precos[i] - precos[j]);
             menorDif = (difTemp < menorDif) && (difTemp > 0) ? difTemp : menorDif;
-            
+        
         }
 
     }
